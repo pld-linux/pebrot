@@ -1,7 +1,7 @@
 Summary:	MSN messenger text mode client
 Name:		pebrot
 Version:	0.8.8
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/pebrot/%{name}-%{version}.tar.bz2
