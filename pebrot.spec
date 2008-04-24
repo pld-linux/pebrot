@@ -1,7 +1,7 @@
 Summary:	MSN messenger text mode client
 Name:		pebrot
 Version:	0.8.8
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/pebrot/%{name}-%{version}.tar.bz2
@@ -17,6 +17,7 @@ also a pretty and colorful Curses-based interface.
 
 %prep
 %setup -q
+mv i18n/pt{_PT,}
 
 %build
 %{__python} setup.py build
