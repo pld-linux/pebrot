@@ -4,10 +4,12 @@ Version:	0.8.8
 Release:	4
 License:	GPL
 Group:		Applications/Communications
-Source0:	http://dl.sourceforge.net/pebrot/%{name}-%{version}.tar.bz2
+Source0:	http://downloads.sourceforge.net/pebrot/%{name}-%{version}.tar.bz2
 # Source0-md5:	aa07bcb3cb7556bdd20a42b48ac45643
 URL:		http://pebrot.sourceforge.net/
 BuildRequires:	python
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
